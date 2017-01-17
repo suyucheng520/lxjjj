@@ -1,0 +1,1607 @@
+/* application申请设置开始 */
+
+.jy_banner {
+    width: 7.5rem;
+    height: 4.68rem;
+}
+
+.jy_banner img {
+    width: 7.5rem;
+    height: 4.68rem;
+}
+
+.submitForm {
+    padding: 0 0.24rem;
+    text-align: center;
+}
+
+.submitForm .userName, .userIphone, .code {
+    background: #fff;
+    width: 100%;
+    margin-top: 0.3rem;
+    padding-left: 0.52rem;
+    height: 1rem;
+    font-size: 0.25rem;
+    -moz-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    -webkit-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+}
+
+.submitForm .application {
+    margin-top: 0.55rem;
+    height: 0.9rem;
+    width: 6.38rem;
+    font-size: 0.28rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.45rem;
+    background: #000;
+    color: #fff;
+}
+
+.icode {
+    position: relative;
+}
+
+.icode .getCode {
+    position: absolute;
+    right: 0;
+    top: 0.43rem;
+    width: 2.27rem;
+    height: 0.76rem;
+    border-radius: 0.38rem;
+    line-height: 0.76rem;
+    background: #f2f2f2;
+    font-size: 0.24rem;
+}
+
+.submitForm .icode .getCode {
+    right: 0.1rem;
+}
+
+.read {
+    margin-top: 0.4rem;
+    padding-bottom: 2.1rem;
+}
+
+.applicationRead.read {
+    padding-bottom: 2.35rem;
+    font-size: 0.25rem;
+}
+
+.applicationRead.read .icon {
+    font-size: 0.45rem;
+    position: relative;
+    top: 0.015rem;
+}
+
+.read .icon {
+    margin-right: 0.1rem;
+}
+
+.grayColor {
+    color: #808080;
+}
+
+.layui-m-layerchild .layui-m-layerbtn>span {
+    color: #333 !important;
+}
+
+.applicationRead a {
+    display: inline-block;
+}
+
+.applicationRead {
+    color: #999;
+}
+
+.applicationRead .icon {
+    color: #333;
+    font-size: 0.45rem;
+}
+
+
+/* application申请设置结束 */
+
+
+/* OneKeyOffer一键报价开始 */
+
+.jy_banner {
+    width: 7.5rem;
+    height: 4.68rem;
+}
+
+.jy_banner img {
+    width: 7.5rem;
+    height: 4.68rem;
+}
+
+.main {
+    margin-bottom: 0.22rem;
+}
+
+.room {
+    padding: 0 0.24rem;
+    margin-top: 0.18rem;
+}
+
+
+
+.roomArea {
+    position: relative;
+}
+
+.roomArea>i {
+    position: absolute;
+    right: 0.3rem;
+    z-index: 10;
+    font-size: 0.3rem;
+    top: 0.2rem;
+}
+
+.roomArea>input {
+    padding-left: 0.5rem;
+}
+
+.roomArea>input, .selectDoule, .selectThree, .sendIphone, .Selectcount {
+    height: 0.86rem;
+    line-height: 0.86rem;
+    width: 7.04rem;
+    font-size: 0.26rem;
+    margin-bottom: 0.1rem;
+    -moz-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    -webkit-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+}
+
+.roomArea .introduceArea {
+    line-height: normal;
+    padding: 0.12rem 0.4rem;
+    font-size: 0.26rem;
+    background: #fff;
+}
+
+.room .sendIphone {
+    line-height: normal;
+    padding: 0.12rem 0.4rem;
+    font-size: 0.26rem;
+    background: #fff;
+}
+
+.selectDoule {
+    height: 0.86rem;
+    width: 7.04rem;
+    display: flex;
+}
+
+.selectDoule>div, .selectThree>div {
+    background: #fff;
+    padding-left: 0.5rem;
+}
+
+.selectDoule .SelectRoom {
+    flex: 1;
+    position: relative;
+    height: 100%;
+}
+
+.selectToilet:after, .selectKitchen:after, .SelectRoom:after {
+    content: '';
+    height: 0.64rem;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    top: 0.09rem;
+    right: 0px;
+}
+
+.selectDoule .icon, .selectThree .icon {
+    color: #999999;
+    position: absolute;
+    right: 0;
+    font-size: 0.23rem;
+    margin-right: 0.25rem;
+}
+
+.selectDoule .SelectHall {
+    flex: 1;
+    position: relative;
+}
+
+.selectThree {
+    display: flex;
+}
+
+.selectKitchen, .selectToilet, .selectBalcony {
+    flex: 1;
+    position: relative;
+}
+
+.singleSelection {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 0.26rem;
+    z-index: 999;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+.mainBotton {
+    text-align: center;
+}
+
+.Selectcount {
+    color: #fff;
+    text-align: center;
+    width: 6.36rem;
+    background: #000;
+    border-radius: 0.43rem;
+    font-size: 0.3rem;
+    font-weight: 700;
+    margin-top: 0.4rem;
+}
+
+.circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.3rem;
+    font-weight: 550;
+    color: #fff;
+    width: 7.5rem;
+    height: 2.68rem;
+    align-items: center;
+    background: url('../images/decoratePrice.png');
+    background-size: contain;
+}
+
+.classify_1, .classify_2 {
+    display: flex;
+}
+
+.artificial, .material, .design, .quality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 3.74rem;
+    height: 2.66rem;
+    font-size: 0.3rem;
+    font-weight: 550;
+    color: #fff;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+.artificial, .design {
+    margin-left: 0;
+}
+
+.artificial {
+    background: url(../images//classify1.png);
+    background-size: contain;
+}
+
+.material {
+    background: url(../images//classify2.png);
+    background-size: contain;
+}
+
+.design {
+    background: url(../images//classify3.png);
+    background-size: contain;
+}
+
+.quality {
+    background: url(../images//classify4.png);
+    background-size: contain;
+}
+
+.oko_layerTitle {
+    width: 100%;
+    width: 5.6rem;
+    height: 1.15rem;
+    position: absolute;
+    top: -1.15rem;
+    left: 0rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    background: url(../images/layerTitlePic_005152.png) no-repeat;
+    background-size: 5.6rem 1.15rem;
+}
+
+.layer1 ul, .layer2 ul, .layer3 ul, .layer4 ul, .layer5 ul {
+    background: #fff;
+    border-radius: 0 0 0.1rem 0.1rem;
+    width: 5.6rem;
+    padding: 0 0.35rem;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.layer1 ul li, .layer2 ul li, .layer3 ul li, .layer4 ul li, .layer5 ul li {
+    height: 0.88rem;
+    width: 100%;
+    line-height: 0.88rem;
+    padding-left: 0.2rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.layer1 ul li:last-of-type, .layer2 ul li:last-of-type, .layer3 ul li:last-of-type, .layer4 ul li:last-of-type, .layer5 ul li:last-of-type {
+    border-bottom: none;
+}
+
+.layer1 ul i, .layer2 ul i, .layer3 ul i, .layer4 ul i, .layer5 ul i {
+    position: absolute;
+    right: 0.2rem;
+    font-size: 0.36rem;
+    top: -0.07rem;
+}
+
+.layer1, .layer2, .layer3, .layer4, .layer5 {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.layer2 {
+    display: none;
+}
+
+#bg {
+    background-color: #000;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    -moz-opacity: 0.3;
+}
+
+.payment_time_mask {
+    z-index: 999;
+    width: 90%;
+    height: 272px;
+    position: absolute;
+    left: 5%;
+    top: 115px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer_t1 {
+    color: #ccc;
+}
+
+.jy_footer {
+    background: #fff;
+    padding: 0.5rem 0 0.38rem 0.25rem;
+}
+
+
+/* OneKeyOffer一键报价结束*/
+
+
+/* 注册开始 */
+
+.registerBg {
+    background: url('../images/Land-bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    /*height: 13.34rem;*/
+    width: 100%;
+    height: 100%;
+}
+
+.register_log {
+    margin: 0.92rem auto 1.4rem;
+    width: 1.4rem;
+    height: 1.91rem;
+    font-size: 0.24rem;
+    background: url('../images/land-logo.png');
+    background-size: 1.4rem 1.91rem;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.52rem;
+    font-size: 0.24rem;
+}
+
+.reg_changeColor {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.registerRead.read {
+    font-size: 0.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    margin: 0.38rem auto 0.81rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.registerRead.read a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.registerRead.read>i {
+    position: absolute;
+    top: -0.18rem;
+    left: 1.1rem;
+    display: block;
+    width: 0.28rem;
+    height: 0.28rem;
+}
+
+.registerRead .icon-xuanze {
+    font-size: 0.3rem;
+}
+
+.importCode, .userIphpne {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.register .userIphpne, .register .icode .importCode, .register .logIn {
+    height: 0.9rem;
+    width: 6.4rem;
+    margin: 0 auto;
+    border-radius: 0.45rem;
+    padding-left: 15px;
+}
+
+.register .userIphpne, .register .icode .importCode {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 0.24rem;
+}
+
+.register .icode {
+    position: relative;
+    margin: 0 auto;
+}
+
+.registerRead .icon-xuanze {
+    margin-top: 0.15rem;
+}
+
+.register .icode .importCode {
+    margin-top: 0.38rem;
+}
+
+.register .icode .sendCode {
+    position: absolute;
+    right: 0;
+    height: 0.9rem;
+    width: 2.32rem;
+    border-radius: 0 0.45rem 0.45rem 0;
+    background-color: rgba(255, 255, 255, 0.72);
+    top: 0.38rem;
+    font-size: 0.24rem;
+}
+
+.register .logIn {
+    margin-top: 1.6rem;
+    background: #A32110;
+    color: #fff;
+    font-size: 0.33rem;
+}
+
+.icon-dianhua {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.layui-m-layer0 .layui-m-layerchild {
+    width: 88%;
+    max-width: 640px;
+}
+
+.jy_header_r {
+    display: block;
+    font-size: 27px;
+    margin: 9px 14px 0 0;
+}
+
+.jy_header_l {
+    font-size: 24px;
+    margin: 14px 0 0 17px;
+}
+
+
+/* 注册结束 */
+
+
+/* 设计师说开始 */
+
+.worksClassify {
+    display: flex;
+    height: 0.86rem;
+    border-bottom: 1px solid #ccc;
+    background: #f8f9fb;
+}
+
+.tab-content-1 .aUl {
+    padding-bottom: 4rem;
+}
+
+.singleSelection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.worksClassify .ClassifyList {
+    font-size: 0.27rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /*水平居中*/
+    align-items: center;
+    /*垂直居中*/
+}
+
+.worksClassify .ClassifyList i {
+    margin: 0.08rem 0 0 0.06rem;
+    font-size: 0.17rem;
+}
+
+.derignerList {
+    margin-bottom: 0.12rem;
+    background: #f8f9fb;
+}
+
+.derignerList .derignerInfo {
+    padding: 0.4rem 0 0.4rem 0.24rem;
+    position: relative;
+}
+.derignerList .lists {
+    background: #ebecee
+}
+.derignerList .lists li {
+    background: #fff;
+    margin-bottom: 0.12rem;
+}
+
+.derignerInfo .head_l_03 {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    line-height: 1rem;
+    overflow: hidden;
+}
+
+.derignerInfo .der_name {
+    /*display:inline-block;*/
+    font-size: 0.25rem;
+    position: absolute;
+    top: 0.71rem;
+    left: 1.71rem;
+}
+
+.derignerInfo .head_l_03 img {
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    margin-right: 0.15rem;
+    vertical-align: middle;
+}
+
+.derignerInfo .infoYoy {
+    width: 1.5rem;
+    height: 0.61rem;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 0.61rem;
+    font-size: 0.27rem;
+    border-radius: 0.05rem;
+    margin: 0.2rem 0.24rem 0 0;
+}
+
+.infoYoy a {
+    width: 1.5rem;
+    color: #fff;
+    height: 0.61rem;
+    text-align: center;
+    line-height: 0.61rem;
+    font-size: 0.27rem;
+    border-radius: 0.05rem;
+}
+
+.der_pic {
+    height: 5.01rem;
+    /*background: url('../images/der_list_pic.png');*/
+    background-size: contain;
+    overflow: hidden;
+    color: #fff;
+    display: block;
+}
+
+.der_pic .der_mask {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.dropload-refresh {
+    text-align: center;
+}
+
+.der_mask img {
+    width: 7.5rem;
+    height: 5rem;
+    position: absolute;
+}
+
+.der_mask .der_title1, .der_mask .der_title2, .der_mask .der_detailed {
+    position: absolute;
+    z-index: 2;
+    font-size: 0.3rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.der_mask .der_title1 {
+    top: 1.78rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+
+.der_mask .der_title2 {
+    top: 2.28rem;
+    font-size: 0.2rem;
+}
+
+.der_mask .der_detailed {
+    top: 2.92rem;
+    font-size: 0.24rem;
+    color: #ccc;
+}
+
+
+/*.der_pic p:nth-child(1) {
+    font-size: 0.3rem;
+    margin-top: 1.78rem;
+    color: rgba(255, 255, 255, 1)
+}
+
+.der_pic p:nth-child(2) {
+    font-size: 0.2rem;
+    margin-top: 0.20rem;
+}
+
+.der_pic p:nth-child(3) {
+    font-size: 0.24rem;
+    margin-top: 0.45rem;
+}*/
+
+.derignerListBottom {
+    height: 1.3rem;
+}
+
+.derignerListBottom .icon {
+    font-size: 0.39rem;
+}
+
+.der_l_bl {
+    margin: 0.43rem 0 0 0.33rem;
+    /*color: #ccc;*/
+}
+
+.der_l_bl .der_read {
+    margin-left: 0.2rem;
+}
+
+.der_l_bl .der_read .icon-yuedu {
+    position: relative;
+    top: 0.05rem;
+}
+
+.giveDesign {
+    display: block;
+    text-align: center;
+    width: 1.78rem;
+    height: 0.61rem;
+    line-height: 0.61rem;
+    font-size: 0.3rem;
+    border: 1px solid #ccc;
+    margin: 0.34rem 0.25rem 0 0;
+    border-radius: 0.05rem;
+}
+
+.slectState .tab-content {
+    background: #F2F2F2;
+    height: 11.66rem;
+    width: 100%;
+}
+
+.slectState .tab-content ul {}
+
+.slectState .tab-content ul li {
+    background: #fff;
+    height: 0.89rem;
+    font-size: 0.23rem;
+    border-bottom: 1px solid #f2f2f2;
+    padding-left: 0.33rem;
+    line-height: 0.89rem;
+}
+
+.slectState {
+    position: relative;
+    height: 11.6rem;
+    /*display: none;*/
+    /*overflow: auto;*/
+    /*-webkit-overflow-scrolling: touch;*/
+}
+
+.slectStyle {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    max-width: 750px;
+}
+
+.slectStyle {
+    height: 0.98rem;
+    width: 100%;
+}
+
+.slectStyle .clearStyle, .slectStyle .sureStyle {
+    text-align: center;
+    height: 0.98rem;
+    line-height: 0.98rem;
+    width: 50%;
+    float: left;
+    background: #000;
+    color: #fff;
+}
+
+.slectStyle .clearStyle {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.clearStyle.active {
+    color: #666666;
+}
+
+.ClassifyList {
+    color: #afafaf;
+}
+
+.worksClassify .active {
+    color: #333;
+}
+
+.tab-content ul li {
+    position: relative;
+}
+
+.tab-content .icon.iconfont {
+    font-size: 0.44rem;
+    position: absolute;
+    right: 0;
+    margin-right: 0.2rem;
+}
+
+
+/* 装修贷开始 */
+
+.decorate_btn_251 {
+    display: block;
+    margin: 0 auto;
+    line-height: 0.9rem;
+    margin-top: 1.1rem;
+}
+
+.decorateBanner {
+    height: 4.27rem;
+    background: url(../images/zxl-banner.png);
+    background-size: contain;
+}
+
+.loadApplication .layui-m-layercont {
+    line-height: normal;
+}
+
+.layerWrap_apply.layerWrap_loanCycle.load_h_9 {
+    height: 9rem;
+}
+
+.bankChopBox {
+    margin: 0.35rem 0 0 0.18rem;
+}
+
+.bankChop {
+    width: 100%;
+    height: 1.04rem;
+}
+
+.bankChop i {
+    float: left;
+    height: 0.35rem;
+    border-right: 1px solid #ccc;
+}
+
+.bankChop i:nth-child(1) {
+    width: 24%;
+    background: url('../images/Guangzhou_nl_.png') no-repeat;
+    background-size: contain;
+}
+
+.bankChop i:nth-child(2) {
+    width: 41%;
+    margin-left: 0.2rem;
+    padding: 0 0.5rem;
+    background: url('../images/Guangzhou_gs.png') no-repeat;
+    background-size: contain;
+}
+
+.bankChop i:nth-child(3) {
+    width: 29%;
+    margin-left: 0.2rem;
+    border: none;
+    background: url('../images/Guangzhou_zx.png') no-repeat;
+    background-size: contain;
+}
+
+.loanInterestBox {
+    padding-top: 0.65rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.loanInterestBox .monthRate {
+    font-size: 0.24rem;
+}
+
+.loanNumber span {
+    color: #cc3333;
+}
+
+.loanNumber span:nth-child(1) {
+    font-size: 0.67rem;
+    font-weight: 600;
+}
+
+.loanNumber span:nth-child(2) {
+    font-size: 0.20rem;
+}
+
+.loanInfoWrap {
+    width: 100%;
+    margin-top: 0.9rem;
+}
+
+.loanInfoWrap .loanInfo {
+    float: left;
+    width: 33.333%;
+}
+
+.loanInfo i {
+    font-size: 0.63rem;
+    display: block;
+}
+
+.loanInfo span {
+    display: block;
+    font-size: 0.26rem;
+    color: #999999;
+}
+
+.loanPeriodBanner {
+    width: 100%;
+    height: 2.94rem;
+    background: url('../images/banner_highGrade_03.png');
+    background-size: 100% 2.94rem;
+}
+
+.loanPeriodBanner div {
+    color: #fff;
+    text-align: center;
+    line-height: 2.94rem;
+    font-size: 0.46rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.loanPeriodBanner div i {
+    font-size: 0.6rem;
+    color: #fff;
+}
+
+.loanPeriodLog {
+    padding: 0.44rem 0 0 0.24rem;
+    height: 1.3rem;
+}
+
+.loanPeriodLog .loanPeriodLxj, .loanPeriodBank {
+    float: left;
+    width: 1.45rem;
+    height: 0.4rem;
+    background: url('../images/lxj_log_03.png') no-repeat;
+    border-right: 1px solid #ccc;
+    background-size: 1.18rem 0.34rem
+}
+
+.loanPeriodBank {
+    margin-left: 0.2rem;
+    background: url('../images/Guangzhou_nl_.png') no-repeat;
+    background-size: contain;
+    border: none;
+}
+
+.applicationLoan {
+    text-align: center;
+}
+
+.applicationLoan .inputBox {
+    color: #333;
+    text-align: left;
+    background: #fff;
+}
+
+.applicationQualification {
+    height: 3.62rem;
+    background: url('../images/loanPeriod_010.png');
+    background-size: contain;
+}
+
+.applicationStep {
+    height: 4.38rem;
+    background: url('../images/loanPeriod_014.png');
+    background-size: contain;
+}
+
+.loanCompute {
+    margin-top: 0.67rem;
+    text-align: center;
+}
+
+.loanCompute h3 {
+    font-size: 0.31rem;
+}
+
+.loanCompute .computeAmount {
+    position: relative;
+}
+
+.loanCompute .slectDate {
+    position: relative;
+}
+
+.computeAmount input, .slectDate input {
+    text-align: left;
+    background: #fff;
+    color: #333;
+}
+
+.loanCompute .computeAmount i {
+    position: absolute;
+    font-size: 0.22rem;
+    margin-top: 0.6rem;
+    right: 0.5rem;
+}
+
+.loanCompute .slectDate i {
+    position: absolute;
+    font-size: 0.22rem;
+    margin-top: 0.6rem;
+    right: 0.5rem;
+}
+
+.perMonthInt {
+    background: #fff;
+    text-align: center;
+    width: 7.02rem;
+    height: 3.5rem;
+    color: #666;
+    overflow: hidden;
+    margin: 0 auto;
+    -moz-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    -webkit-box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+    box-shadow: 0.02rem 0.02rem 0.06rem #B0B0B0;
+}
+
+.perMonthIntTitle {
+    font-size: 0.28rem;
+}
+
+.perMonthIntAmount {
+    font-size: 0.31rem;
+}
+
+.perMonthInt p {
+    margin-top: 0.15rem;
+    color: #999;
+    font-size: 0.18rem;
+}
+
+.perMonthIntTitle {
+    margin-top: 0.47rem;
+}
+
+.perMonthIntDetai {
+    margin-top: 0.93rem;
+}
+
+.blackBtn.applicationBtn {
+    color: #fff
+}
+
+.loanMoney, .costTotal, .loanCycDate {
+    float: left;
+    font-size: 0.2rem;
+    width: 33.33%;
+}
+
+.loanMoney i, .costTotal i, .loanCycDate i {
+    margin-left: 0.15rem;
+}
+
+.loanSignal {
+    height: 2.26rem;
+    margin-top: 0.6rem;
+    background: url('../images/loanStep_021.png') no-repeat;
+    margin-left: 0.5rem;
+    background-size: contain;
+}
+
+.Loanexplain {
+    margin-left: 0.27rem;
+    margin-top: 0.75rem;
+}
+
+.Loanexplain h3 {
+    font-size: 0.22rem;
+    color: #999;
+    font-weight: 100;
+    margin-bottom: 0.05rem;
+}
+
+.Loanexplain p {
+    font-size: 0.2rem;
+    height: 0.38rem;
+}
+
+.Loanexplain .m_t_60 {
+    margin-bottom: 0.6rem;
+}
+
+.layerWrap_apply .layerMain {
+    padding: 0.3rem 0.35rem;
+    position: absolute;
+    width: 5.1rem;
+    top: 1.4rem;
+}
+.modifyLayer .layerWrap_apply .layerMain{
+    padding: 0.2rem 0.35rem;
+}
+.modifyLayer .grzl_UserName .icon{
+    color: #333;
+}
+
+.slectLoanCycle ul li {
+    padding-left: 0.4rem;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+.layerMain .slectLoanCycle ul li {
+    text-align: left;
+}
+
+.layerMain .slectLoanCycle ul li span {
+    font-size: 0.24rem;
+    color: #363636;
+    text-align: left;
+}
+
+.slectLoanCycle ul li i {
+    position: absolute;
+    right: 0;
+    margin-right: 0.15rem;
+    font-size: 0.44rem;
+}
+
+.LoanPeriodLayer.layui-m-layerchild {
+    width: 5.81rem!important;
+    border-radius: 0.1rem;
+}
+
+.LoanPeriodLayer.layui-m-layerchild .layui-m-layercont {
+    padding: 0;
+}
+
+.LoanPeriodLayer .layerWrap_loanCycle {
+    height: 7rem;
+}
+
+.loadApplication {
+    width: 5.81rem!important;
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+
+/* 装修贷结束 */
+
+
+/* 个人中心开始 */
+
+.zrzx_info {
+    margin: 0.5rem 0.31rem 0 0.33rem;
+}
+
+.zrzxUserInfo {
+    text-align: center;
+    overflow: hidden;
+}
+
+.zrzxUserInfo .picWrap {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.zrzxUserInfo .picWrap img {
+    width: 100%;
+}
+
+.zrzxUserInfo .zrxz_userName {
+    margin-top: 0.21rem;
+    font-size: 0.23rem;
+    color: #fff;
+}
+
+.zrzxUserInfo {}
+
+.integralCircle {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #dcdbda;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 0.26rem;
+    margin-top: 0.4rem;
+}
+
+.integralCircle .CircleNumber {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 0.21rem;
+    color: #000;
+}
+
+.integralCircle .CirecleText {
+    font-size: 0.19rem;
+    color: #59524D;
+    display: block;
+}
+
+.intProgressBar {
+    width: 4rem;
+    margin-top: 0.43rem;
+    font-size: 0.2rem;
+    position: relative;
+}
+
+.intProgressBar .whiteVip {
+    color: #fff;
+}
+
+.whiteBar {
+    position: absolute;
+    width: 1.2rem;
+    height: 0.12rem;
+    border-radius: 0.6rem;
+    background: rgba(255, 255, 255, 1);
+    top: 0.34rem;
+    left: 0;
+    z-index: 999;
+}
+
+.circleTotil {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.transparentBar {
+    position: absolute;
+    width: 4rem;
+    height: 0.12rem;
+    border-radius: 0.6rem;
+    background: #7b7571;
+    top: 0.34rem;
+    left: 0;
+}
+
+.intProgressBar .growthValue {
+    color: #7b7571;
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    color: #fff;
+    font-size: 0.17rem;
+}
+
+.grzx_domain {
+    position: relative;
+    top: -0.18rem;
+}
+
+.grzx_domain a {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: 0.37rem;
+}
+
+.grzx_domain a {
+    width: 2rem;
+    height: 1rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.grzx_domain a>div {
+    margin: 0 auto;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #e0dfde;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.grzx_domain .icon {
+    font-size: 0.4rem;
+}
+
+.grzx_domain span {
+    color: #fff;
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 0.19rem;
+}
+
+
+/* 修改资料页面开始 */
+
+.gtzl_layouy>a {
+    text-align: center;
+    font-size: 0.23rem;
+    color: #fff;
+    margin-top: 0.78rem;
+}
+
+.gtzl_layouy {
+    height: 12.94rem;
+    width: 7.5rem;
+    background: url('../images/grzx_indexGb151.png') no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.modifyLayer .layui-m-layerchild.layui-m-anim-scale>h3 {
+    background: #ccc !important;
+}
+
+.modifyLayer .layui-m-layerchild .layui-m-layercont {
+    padding: 0 !important;
+    line-height: normal;
+    text-align: left !important;
+}
+
+.modifyLayer {
+    width: 5.81rem !important;
+}
+
+.modifyLayer.layui-m-layerchild.layui-m-anim-scale {
+    border-radius: 0.15rem;
+}
+.modifyLayer
+
+.layerWrap_loanCycle {
+    height: 4.5rem;
+}
+
+.grzl_UserName.p_g_03 {
+    padding: 0.3rem;
+}
+
+.modifyGenderWrap {
+    height: 5rem;
+}
+.modifyLayer  .modifyGenderWrap {
+    height: 4.45rem;
+}
+
+.grzl_UserNameVal {
+    background: rgba(0, 0, 0, 0);
+}
+
+.sexSlectVal {
+    text-align: left;
+}
+
+.grzl_UserName .icon {
+    color: #333;
+}
+
+.grzx_modifyData .grzx_mdList {
+    height: 1.13rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 1rem;
+}
+
+.grzx_modifyData {
+    width: 100%;
+}
+
+.grzx_modifyData .avatarList {
+    height: 1.37rem;
+    line-height: 1.32rem;
+}
+
+.modifyAvatar {
+    position: relative;
+}
+
+.grzx_avatar {
+    display: block;
+    margin: 0.2rem 0 0 0.24rem;
+}
+
+.listRight {
+    position: relative;
+}
+
+.listRight .icon {
+    font-size: 0.26rem;
+    margin-right: 0.24rem;
+    margin-left: 0.15rem;
+    color: #999999;
+}
+
+.listRight input[type=file] {
+    position: absolute;
+    font-size: 1rem;
+    left: -5.5rem;
+    opacity: 0;
+}
+
+.listRight span {
+    color: #999999;
+    font-size: 0.24rem;
+}
+
+.grzx_mdList .m_l_24 {
+    font-size: 0.24rem;
+    color: #333333;
+    font-weight: 700;
+}
+
+.grzx_mdList.noBorderBottom {
+    border-bottom: none;
+}
+
+.grzl_UserName {
+    position: relative;
+}
+
+.grzl_UserNameVal {
+    width: 3.8rem;
+    font-size: 0.23rem;
+    padding-left: 0.1rem;
+}
+
+.grzl_UserName .icon {
+    font-size: 0.42rem;
+    position: absolute;
+    right: 0.1rem;
+    top: -0.001rem;
+    color: #999999;
+}
+
+.grzl_UserName {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.grzl_UserName {
+    margin-top: 0.4rem;
+    padding: 0.1rem
+}
+
+.grzl_save {
+    margin-top: 0.81rem;
+    width: 3rem;
+    height: 0.7rem;
+    font-size: 0.23rem;
+    background: #000;
+    border-radius: 0.35rem;
+    color: #fff;
+    text-align: center;
+}
+
+.p_g_03 .icon {
+    top: 0.19rem;
+}
+
+.p_g_03 {
+    margin-top: 0;
+}
+
+.m_t_03 {
+    margin-top: 0.16rem;
+}
+
+.grzl_mcode {
+    display: inline-block;
+    font-size: 0.23rem;
+    margin-top: -0.07rem;
+}
+
+.grzx_mInputCode {
+    width: 2.6rem;
+    position: relative;
+    margin-top: -0.05rem;
+    border-right: 1px solid #ccc;
+}
+
+
+/*  .grzx_mcodeWrap:after{
+    content: '';
+    height: 0.64rem;
+    border-left: 1px solid red;
+    position: absolute;
+    top: 0.09rem;
+    right: 0px;
+    z-index: 111;
+  }
+  */
+
+.grzx_mpNotify {
+    font-size: 0.18rem;
+    color: #ccc;
+    margin: 0.05rem 0.7rem 0 0.6rem;
+    text-align: left;
+    line-height: 0.26rem;
+}
+
+.modifyPhoneStep3 {
+    margin-top: 0.5rem;
+}
+
+
+/* 修改密码 */
+
+.grzx_confirmPassword {
+    border-bottom: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grzx_confirmPassword input {
+    height: 0.82rem;
+    line-height: 0.82rem;
+    border-bottom: 1px solid #ccc;
+    width: 4.74rem;
+    font-size: 0.23rem;
+    padding-left: 0.2rem;
+}
+
+
+.grzx_mSureBtn {
+    margin-top: 0.4rem;
+}
+
+.grzx_mPassLayer {
+    height: 5.41rem;
+}
+
+.mPhoneStepW3 {
+    height: 4.7rem;
+}
+
+.layerWrap_loanCycle {
+    position: relative;
+}
+
+.layerWrap_loanCycle .icon-cuowu {
+    position: absolute;
+    bottom: -0.8rem;
+    left: 2.7rem;
+    color: #fff;
+}
+
+.mt50 {
+    margin-top: 0.88rem;
+}
+
+.outerSphere {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*客服弹层*/
+
+.kf_dialog_Praent {
+    position: relative;
+    display: block;
+    width: 5.8rem;
+}
+
+.dialog_m_Parent .kefu_25 {
+    background: url('../images/kefu_521.png') no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 1.37rem;
+    line-height: 1.37rem;
+    font-size: 0.35rem;
+    color: #fff;
+}
+
+.kf_dialog_Praent .kf_iphone {
+    display: flex;
+    justify-content: center;
+    height: 1.03rem;
+    line-height: 1.03rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.kf_dialog_Praent .kf_iphone i {
+    font-size: 0.38rem;
+    margin-right: 0.82rem
+}
+
+.kf_dialog_Praent .kf_iphone span {
+    font-size: 0.2rem;
+}
+
+.kf_dialog_Praent .callUp {
+    font-size: 0.23rem;
+    font-weight: 700;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.kf_dialog_Praent .kf_time {
+    font-size: 0.18rem;
+    color: #999999;
+    text-align: center;
+}
+
+.dialogContent .icon-cuowu {
+    position: absolute;
+    font-size: 0.3rem;
+    left: 50%;
+    margin-left: -0.15rem;
+    bottom: -2.5rem;
+    color: #fff;
+}
+
+.layui-m-layerchild.kfDialog.layui-m-anim-scale {
+    border-radius: 0.18rem;
+    background: rgba(0, 0, 0, 0);
+    width: auto;
+}
+
+/*@import url('fb-style.css');*/
